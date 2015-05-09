@@ -1,1 +1,5 @@
-﻿<h1>dashboard</h1>
+﻿<div data-ng-controller="dashboardController">
+    <div ng-controller="CalendarCtrl">
+        <div class="calendar" ng-model="eventSources" calendar="myCalendar1" ui-calendar="uiConfig.calendar"></div>
+    </div>
+</div>

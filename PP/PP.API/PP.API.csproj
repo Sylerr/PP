@@ -155,6 +155,7 @@
     <Compile Include="App_Start\AutoMapper.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\OrdersController .cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AuthContext.cs" />
