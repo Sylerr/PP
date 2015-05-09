@@ -1,4 +1,4 @@
-﻿var app = angular.module('PP', ['ngRoute', 'LocalStorageModule', 'angular-loading-bar']);
+﻿var app = angular.module('PP', ['ngRoute', 'LocalStorageModule', 'ui.calendar', 'ui.bootstrap', 'angular-loading-bar']);
 
 app.config(function ($routeProvider) {
 
